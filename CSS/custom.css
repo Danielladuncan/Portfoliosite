@@ -1,0 +1,32 @@
+html {
+  /* Baggrundsfarve */
+  --color-bg: #f6f3ef;
+
+  /* CTA farve */
+  --color-cta: #6b5a4d;
+
+  /* Tekst farver */
+  --color-text: #4a3f38;
+
+  /* Font family og størrelser */
+  h1 {
+    font-family: "Cormorant Bold";
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color-text);
+  }
+
+  h2 {
+    font-family: "Worksans Light";
+    font-size: 3rem;
+    font-weight: 100;
+    color: var(--color-text);
+  }
+
+  p {
+    font-family: "Worksans regular";
+    font-size: 3rem;
+    font-weight: 100;
+    color: var(--color-text);
+  }
+}
