@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6c5a4d;
+      }
+
+      .cls-2 {
+        stroke-width: 20px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #4a3f38;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke-width: 16px;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-1" cx="256" cy="256" rx="239.19" ry="250.7"/>
+  <circle class="cls-2" cx="255.23" cy="255.9" r="87.87"/>
+  <circle class="cls-3" cx="343.1" cy="159.51" r="18.69"/>
+  <path class="cls-3" d="M105.74,178.2v165.57s-2.64,69.1,90.61,71.74h128.06s71.63-1.84,80.44-71.74v-165.57s5.39-69.78-80.44-79.4h-157.05s-61.62,8.36-61.62,79.4Z"/>
+</svg>
