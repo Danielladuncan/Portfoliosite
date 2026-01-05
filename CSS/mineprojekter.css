@@ -138,3 +138,7 @@
     list-style-type: circle;
   }
 }
+
+/* Desktop */
+@media (width > 800px) {
+}

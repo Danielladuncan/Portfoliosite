@@ -1,5 +1,6 @@
 /* Desktop */
 html {
+  background-color: #f6f3ef;
   /* Baggrundsfarve */
   --color-bg: #f6f3ef;
 
@@ -11,8 +12,19 @@ html {
 
   /* Tekst border */
   --color-border: #6b5a4d;
+
+  /* Tekst header */
+  header {
+    --color-header: #cfc6bd;
+  }
+
+  /* Tekst footer */
+  footer {
+    --color-header: #cfc6bd;
+  }
 }
 
+/* Desktop */
 @media (width > 800px) {
   /* Font family og størrelser */
   h1 {
@@ -35,17 +47,14 @@ html {
     font-weight: 100;
     color: var(--color-text);
   }
-
-  header {
-    --color-header: #cfc6bd;
-  }
-  footer {
-    --color-header: #cfc6bd;
-  }
 }
 
 /* Mobile first */
 @media (max-width: 800px) {
+  hmtl {
+    background-color: var(--color-bg);
+  }
+
   h1 {
     font-family: "Cormorant Bold";
     font-size: 2.25rem;

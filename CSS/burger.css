@@ -6,10 +6,10 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-header);
-  font-family: "Cormorant Medium Italic";
+  font-family: "Cormorant Italic";
   font-weight: 400;
-  font-style: normal;
-  font-size: rem;
+  font-style: italic;
+  font-size: 1.5rem;
 }
 
 .logo img {
@@ -19,11 +19,13 @@ header {
 nav {
   display: flex;
   align-items: right;
+  padding-right: 1.5rem;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+  color: var(--color-text);
 }
 
 .menu {
@@ -73,11 +75,11 @@ a {
 @media (max-width: 800px) {
   header {
     position: relative;
+    font-family: "Cormorant Regular";
   }
 
   .logo img {
     width: 30%;
-    /* height: 100px; */
   }
 
   .menu {
@@ -113,7 +115,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: var(--color-bg);
     position: absolute;
     top: 94px;
     left: 0;
