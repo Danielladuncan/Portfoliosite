@@ -1,3 +1,4 @@
+/* Desktop */
 html {
   /* Baggrundsfarve */
   --color-bg: #f6f3ef;
@@ -8,6 +9,11 @@ html {
   /* Tekst farver */
   --color-text: #4a3f38;
 
+  /* Tekst border */
+  --color-border: #6b5a4d;
+}
+
+@media (width > 800px) {
   /* Font family og størrelser */
   h1 {
     font-family: "Cormorant Bold";
@@ -25,7 +31,7 @@ html {
 
   p {
     font-family: "Worksans regular";
-    font-size: 3rem;
+    font-size: 1.125rem;
     font-weight: 100;
     color: var(--color-text);
   }
@@ -35,5 +41,28 @@ html {
   }
   footer {
     --color-header: #cfc6bd;
+  }
+}
+
+/* Mobile first */
+@media (max-width: 800px) {
+  h1 {
+    font-family: "Cormorant Bold";
+    font-size: 2.25rem;
+    color: var(--color-text);
+  }
+
+  h2 {
+    font-family: "Worksans Light";
+    font-size: 1.75rem;
+    font-weight: 100;
+    color: var(--color-text);
+  }
+
+  p {
+    font-family: "Worksans regular";
+    font-size: 0.875rem;
+    font-weight: 100;
+    color: var(--color-text);
   }
 }

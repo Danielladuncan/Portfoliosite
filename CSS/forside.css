@@ -52,16 +52,4 @@
   .button_overlay .right {
     margin-left: 0.5rem;
   }
-
-  /* .text_overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: auto;
-    color: var(--color-text);
-    text-align: center;
-    align-items: center;
-    width: 40%;
-  } */
 }
