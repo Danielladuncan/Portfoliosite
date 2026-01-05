@@ -1,5 +1,7 @@
 /* Desktop */
 html {
+  padding: 2rem;
+
   background-color: #f6f3ef;
   /* Baggrundsfarve */
   --color-bg: #f6f3ef;
