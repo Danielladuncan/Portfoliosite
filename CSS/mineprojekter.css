@@ -1,3 +1,77 @@
+/* Desktop */
+@media (width > 800px) {
+  .projekt_btn {
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid var(--color-border);
+    padding: 1em 0.5em;
+    place-items: center;
+    margin: 2em 15em;
+    box-shadow: 0 10px 10px rgba(0, 4, 4, 0.1);
+  }
+
+  .projekt_btn h2 {
+    font-size: 1.5rem;
+  }
+  .intro_uge img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .intro_uge {
+    display: block;
+    margin: 2em 2em;
+  }
+
+  .intro_uge_btn {
+    display: block;
+    width: fit-content;
+    background-color: var(--color-border);
+    color: var(--color-bg);
+    font-family: "Worksans regular";
+    border: 2px solid var(--color-border);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em 2em;
+  }
+
+  .intro_uge a {
+    font-size: 1.125rem;
+    padding: 0.5em 2em;
+  }
+
+  .intro_uge p {
+    line-height: 1.875;
+  }
+
+  .intro_uge ul {
+    font-family: "Worksans regular";
+    font-size: 0.875rem;
+    font-weight: 100;
+    line-height: 1.875;
+    color: var(--color-text);
+    list-style-type: circle;
+  }
+
+  .intro_uge1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .intro_uge1 h2 {
+    text-align: center;
+  }
+
+  .intro-com {
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+  }
+}
+
 /* Mobile first */
 @media (max-width: 800px) {
   .projekt_btn {
@@ -30,6 +104,7 @@
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0.5em 1em;
   }
 
   .intro_uge a {
