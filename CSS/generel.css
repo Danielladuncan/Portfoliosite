@@ -1,8 +1,21 @@
 footer {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  background-color: var(--color-header);
 }
 
 .footer-links img {
-  width: 15%;
+  width: 10%;
+}
+
+/* Mobile first */
+@media (max-width: 800px) {
+  footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .footer-links img {
+    width: 15%;
+  }
 }

@@ -1,5 +1,6 @@
 /* Desktop */
 html {
+  background-color: #f6f3ef;
   /* Baggrundsfarve */
   --color-bg: #f6f3ef;
 
@@ -23,6 +24,7 @@ html {
   }
 }
 
+/* Desktop */
 @media (width > 800px) {
   /* Font family og størrelser */
   h1 {

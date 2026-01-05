@@ -1,4 +1,57 @@
 /* Desktop */
+@media (width > 800px) {
+  .hero_section {
+    position: relative;
+    padding: 1em;
+  }
+
+  .hero_section img {
+    width: 100%;
+  }
+
+  .hero_section a {
+    font-family: "Worksans Light";
+    font-weight: 400;
+    font-size: 2rem;
+    background-color: var(--color-cta);
+    color: var(--color-text);
+    border-radius: 3px;
+    padding: 0.5rem;
+    border: none;
+  }
+
+  .text_overlay {
+    position: absolute;
+    top: 70%; /* justér lodret */
+    left: 0;
+    width: 100%;
+    display: flex;
+    opacity: 80%;
+  }
+
+  .text_overlay a {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+    margin: 0 4rem;
+
+    background: #d9d9d9;
+    color: #6b5a4d;
+    text-decoration: none;
+    border-radius: 100px;
+    font-weight: 500;
+    /* border: solid #6b5a4d; */
+  }
+
+  .button_overlay .left {
+    margin-right: 0.5rem;
+  }
+
+  .button_overlay .right {
+    margin-left: 0.5rem;
+  }
+}
 
 /* Mobile first */
 @media (max-width: 800px) {
