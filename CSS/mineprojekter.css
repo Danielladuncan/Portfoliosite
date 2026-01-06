@@ -120,7 +120,6 @@
     font-size: 1.75rem;
     font-weight: 100;
     color: var(--color-text);
-    margin-left: 2rem;
   }
 
   .intro_uge p {
@@ -139,10 +138,6 @@
     line-height: 1.875;
     color: var(--color-text);
     list-style-type: circle;
-  }
-
-  .intro_uge1 {
-    margin: 2rem;
   }
 
   .intro_uge1 img {
